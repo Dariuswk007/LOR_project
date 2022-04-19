@@ -1,0 +1,218 @@
+body {
+  margin: 0px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    96deg,
+    rgba(0, 0, 0, 1) 33%,
+    rgba(219, 172, 0, 1) 100%
+  );
+  height: 10px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgba(193, 134, 24, 1);
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    111deg,
+    rgba(0, 0, 0, 1) 2%,
+    rgba(193, 134, 24, 1) 100%
+  );
+}
+
+/* left column */
+
+.header-container > .left-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container > .left-top img {
+  transform: scale(2);
+}
+
+/* center column */
+
+.header-container > .center-top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container > .center-top-nav > .home {
+  font-size: 25px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.header-container > .center-top-nav > .home a {
+  color: gold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.header-container > .center-top-nav > .home a::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 30px;
+  background-color: gold;
+  transform-origin: center center;
+  transition: transform 0.25s ease-out;
+}
+
+.header-container > .center-top-nav > .home a:hover::before {
+  transform: scaleX(1);
+}
+
+.header-container > .center-top-nav > .skins {
+  font-size: 25px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.header-container > .center-top-nav > .skins a {
+  color: gold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.header-container > .center-top-nav > .skins a::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 29px;
+  background-color: gold;
+  transform-origin: center center;
+  transition: transform 0.25s ease-out;
+}
+
+.header-container > .center-top-nav > .skins a:hover::before {
+  transform: scaleX(1);
+}
+
+.header-container > .center-top-nav > .about {
+  font-size: 25px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.header-container > .center-top-nav > .about a {
+  color: gold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.header-container > .center-top-nav > .about a::before {
+  content: "";
+  position: absolute;
+  width: 65px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 30px;
+  background-color: gold;
+  transform-origin: center center;
+  transition: transform 0.25s ease-out;
+}
+
+.header-container > .center-top-nav > .about a:hover::before {
+  transform: scaleX(1);
+}
+
+.header-container > .center-top-nav > .contact {
+  font-size: 25px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.header-container > .center-top-nav > .contact a {
+  color: gold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.header-container > .center-top-nav > .contact a::before {
+  content: "";
+  position: absolute;
+  width: 76px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 32px;
+  background-color: gold;
+  transform-origin: center center;
+  transition: transform 0.25s ease-out;
+}
+
+.header-container > .center-top-nav > .contact a:hover::before {
+  transform: scaleX(1);
+}
+
+/* top right column */
+
+.header-container > .right-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-container > .right-top > .background-image {
+  width: 100%;
+  height: 100%;
+}
+
+.header-container > .right-top > .background-image img {
+  width: 484px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 40% 3%;
+  margin-bottom: -12px;
+  -webkit-mask-image: linear-gradient(to right, transparent 2%, black);
+}
+
+/* middle section */
+
+.middle-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.middle-section > .left-mid {
+  color: lightblue;
+}
+
+.middle-section > .left-mid > .gilded-content h1 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Updock", cursive;
+}
+
+.gilded-content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #cbac08;
+}
+
+.middle-section > .right-mid {
+  height: 400px;
+}
