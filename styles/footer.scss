@@ -1,0 +1,175 @@
+@mixin banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// footer
+
+.footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.2fr 0.5fr 0.4fr;
+  background-color: black;
+  height: 700px;
+  height: 112px;
+  margin-top: 595px;
+}
+
+h2 {
+  position: absolute;
+  font-size: 50px;
+  color: red;
+}
+
+.footer > .footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > .footer-icon img {
+  height: 100px;
+}
+
+.footer-nav {
+  @include banner;
+  margin-left: 55px;
+}
+
+.footer-nav > .home {
+  font-size: 25px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-nav > .home a {
+  color: gold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.footer-nav > .home a::before {
+  content: "";
+  position: absolute;
+  width: 62px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 33px;
+  background-color: gold;
+  transform-origin: center center;
+  transition: transform 0.25s ease-out;
+}
+
+.footer-nav > .home a:hover::before {
+  transform: scaleX(1);
+}
+
+.footer-nav > .skins {
+  font-size: 25px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-nav > .skins a {
+  color: gold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.footer-nav > .skins a::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 32px;
+  background-color: gold;
+  transform-origin: center center;
+  transition: transform 0.25s ease-out;
+}
+
+.footer-nav > .skins a:hover::before {
+  transform: scaleX(1);
+}
+
+.footer-nav > .about {
+  font-size: 25px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-nav > .about a {
+  color: gold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.footer-nav > .about a::before {
+  content: "";
+  position: absolute;
+  width: 65px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 30px;
+  background-color: gold;
+  transform-origin: center center;
+  transition: transform 0.25s ease-out;
+}
+
+.footer-nav > .about a:hover::before {
+  transform: scaleX(1);
+}
+
+.footer-nav > .contact {
+  font-size: 25px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-nav > .contact a {
+  color: gold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.footer-nav > .contact a::before {
+  content: "";
+  position: absolute;
+  width: 86px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 32px;
+  background-color: gold;
+  transform-origin: center center;
+  transition: transform 0.25s ease-out;
+}
+
+.footer-nav > .contact a:hover::before {
+  transform: scaleX(1);
+}
+
+.contact-phone-container {
+  color: gold;
+  display: flex;
+  align-items: center;
+  padding-left: 90px;
+}
+
+.contact-phone-container > .contact-details {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.contact-phone-container > .phone-number {
+  padding-left: 20px;
+  transform: scale(1.5);
+}

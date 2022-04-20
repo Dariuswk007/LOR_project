@@ -1,0 +1,32 @@
+.hero-section {
+  height: 845px;
+}
+
+.hero-section button {
+  width: 200px;
+  height: 98px;
+}
+
+.hero-section button {
+  background-color: #86eb00;
+  border: 1px solid #07d3ff;
+  border-radius: 50px;
+  width: 423px;
+  margin-bottom: -43px;
+  margin-left: 711px;
+}
+
+.hero-section a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.hero-section > .hero-image img {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%, transparent), to(black));
+  -webkit-mask-image: linear-gradient(to bottom, transparent 2%, black);
+  width: 100%;
+  position: absolute;
+}
+/*# sourceMappingURL=hero-section.css.map */

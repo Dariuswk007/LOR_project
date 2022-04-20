@@ -1,0 +1,56 @@
+/* middle section */
+.middle-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  height: 880px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle-section > .left-mid {
+  color: lightblue;
+}
+
+h1 {
+  color: #c18618;
+}
+
+.middle-section > .left-mid > .gilded-content h1 {
+  font-size: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Updock", cursive;
+}
+
+.gilded-content p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  color: #cbac08;
+  padding: 0px 70px;
+}
+
+.middle-section > .right-mid {
+  height: 400px;
+}
+/*# sourceMappingURL=middle-section.css.map */
