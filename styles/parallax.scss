@@ -1,0 +1,41 @@
+@mixin align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+body {
+  @include body;
+}
+
+@mixin header {
+  font-size: 50px;
+  font-family: "Updock", cursive;
+  color: rgba(193, 134, 24, 1);
+}
+
+.parallax-bg {
+  background-image: url(/Images/gilded-skins.jpg);
+  min-height: 855px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image: linear-gradient(to top, transparent 1%, black);
+}
+
+.page-content-container {
+  color: white;
+  height: 572px;
+  @include align;
+}
+
+.page-content-container > .page-header {
+  @include header;
+}

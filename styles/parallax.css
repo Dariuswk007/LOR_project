@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.parallax-bg {
+  background-image: url(/Images/gilded-skins.jpg);
+  min-height: 855px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, color-stop(1%, transparent), to(black));
+  -webkit-mask-image: linear-gradient(to top, transparent 1%, black);
+}
+
+.page-content-container {
+  color: white;
+  height: 572px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-content-container > .page-header {
+  font-size: 50px;
+  font-family: "Updock", cursive;
+  color: #c18618;
+}
+/*# sourceMappingURL=parallax.css.map */
