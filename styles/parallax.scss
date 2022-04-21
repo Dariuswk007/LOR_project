@@ -1,3 +1,8 @@
+@mixin header-style {
+  border-bottom: 7px solid #c18618;
+  border-radius: 17px;
+}
+
 @mixin align {
   display: flex;
   justify-content: center;
@@ -12,6 +17,7 @@
 
 body {
   @include body;
+  font-family: sans-serif;
 }
 
 @mixin header {
@@ -36,6 +42,17 @@ body {
   @include align;
 }
 
-.page-content-container > .page-header {
+.page-content-container > .section-header {
   @include header;
+  @include header-style;
+}
+
+.champion-section-contents > .vi-contents h1 {
+  @include header;
+  font-size: 30px;
+}
+
+.champion-section-contents > .vi-contents {
+  color: gold;
+  margin-left: 50px;
 }

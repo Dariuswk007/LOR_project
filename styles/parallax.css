@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: sans-serif;
 }
 
 .parallax-bg {
@@ -29,9 +30,23 @@ body {
           align-items: center;
 }
 
-.page-content-container > .page-header {
+.page-content-container > .section-header {
   font-size: 50px;
   font-family: "Updock", cursive;
   color: #c18618;
+  border-bottom: 7px solid #c18618;
+  border-radius: 17px;
+}
+
+.champion-section-contents > .vi-contents h1 {
+  font-size: 50px;
+  font-family: "Updock", cursive;
+  color: #c18618;
+  font-size: 30px;
+}
+
+.champion-section-contents > .vi-contents {
+  color: gold;
+  margin-left: 50px;
 }
 /*# sourceMappingURL=parallax.css.map */
