@@ -87,6 +87,11 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-bottom: 450px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: inherit;
+      grid-template-columns: inherit;
 }
 
 .jinx-contents > .jinx-content-header {
@@ -104,9 +109,42 @@ body {
   font-family: "Updock", cursive;
   color: #c18618;
   font-size: 70px;
+  margin-top: 10px;
 }
 
 .jinx-content-header p {
   font-size: 30px;
+}
+
+.jayce-contents {
+  height: 400px;
+  margin-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 450px;
+  padding-left: 206px;
+}
+
+.jayce-content-header h1 {
+  font-family: "Updock", cursive;
+  color: #c18618;
+  font-size: 70px;
+}
+
+.jayce-content-header p {
+  color: gold;
+  font-size: 30px;
+}
+
+.jayce-contents > .jayce-image img {
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(1%, transparent), to(black));
+  -webkit-mask-image: linear-gradient(to right, transparent 1%, black);
 }
 /*# sourceMappingURL=parallax.css.map */
