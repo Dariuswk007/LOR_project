@@ -77,4 +77,36 @@ body {
 .content-header p {
   font-size: 30px;
 }
+
+.jinx-contents {
+  height: 400px;
+  margin-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.jinx-contents > .jinx-content-header {
+  color: gold;
+  width: 100%;
+}
+
+.jinx-content-header .jinx-image img {
+  margin-right: 147px;
+  -webkit-mask-image: -webkit-gradient(linear, right top, left top, color-stop(1%, transparent), to(black));
+  -webkit-mask-image: linear-gradient(to left, transparent 1%, black);
+}
+
+.jinx-content-header h1 {
+  font-family: "Updock", cursive;
+  color: #c18618;
+  font-size: 70px;
+}
+
+.jinx-content-header p {
+  font-size: 30px;
+}
 /*# sourceMappingURL=parallax.css.map */
