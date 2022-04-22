@@ -50,13 +50,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-left: 158px;
 }
 
 .champion-section-contents > .vi-contents h1 {
   font-size: 50px;
   font-family: "Updock", cursive;
   color: #c18618;
-  font-size: 30px;
+  font-size: 70px;
 }
 
 .champion-section-contents > .vi-contents {
@@ -71,5 +72,9 @@ body {
 .vi-contents > .vi-image img {
   -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(1%, transparent), to(black));
   -webkit-mask-image: linear-gradient(to right, transparent 1%, black);
+}
+
+.content-header p {
+  font-size: 30px;
 }
 /*# sourceMappingURL=parallax.css.map */

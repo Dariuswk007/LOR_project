@@ -52,11 +52,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 158px;
 }
 
 .champion-section-contents > .vi-contents h1 {
   @include header;
-  font-size: 30px;
+  font-size: 70px;
 }
 
 .champion-section-contents > .vi-contents {
@@ -68,4 +69,8 @@ body {
 
 .vi-contents > .vi-image img {
   -webkit-mask-image: linear-gradient(to right, transparent 1%, black);
+}
+
+.content-header p {
+  font-size: 30px;
 }
