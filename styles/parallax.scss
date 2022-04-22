@@ -45,6 +45,13 @@ body {
 .page-content-container > .section-header {
   @include header;
   @include header-style;
+  margin-bottom: 349px;
+}
+
+.champion-section-contents > .vi-contents > .content-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .champion-section-contents > .vi-contents h1 {
@@ -55,4 +62,10 @@ body {
 .champion-section-contents > .vi-contents {
   color: gold;
   margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.vi-contents > .vi-image img {
+  -webkit-mask-image: linear-gradient(to right, transparent 1%, black);
 }
