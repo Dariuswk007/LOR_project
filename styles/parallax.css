@@ -118,7 +118,7 @@ body {
 
 .jayce-contents {
   height: 400px;
-  margin-top: 300px;
+  margin-top: -196px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,7 +128,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 450px;
+  margin-bottom: 305px;
   padding-left: 206px;
 }
 
@@ -144,6 +144,76 @@ body {
 }
 
 .jayce-contents > .jayce-image img {
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(1%, transparent), to(black));
+  -webkit-mask-image: linear-gradient(to right, transparent 1%, black);
+}
+
+.caitlyn-contents {
+  height: 400px;
+  margin-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 450px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: inherit;
+      grid-template-columns: inherit;
+}
+
+.caitlyn-contents > .caitlyn-content-header {
+  color: gold;
+  width: 100%;
+}
+
+.caitlyn-content-header .caitlyn-image img {
+  margin-right: 147px;
+  -webkit-mask-image: -webkit-gradient(linear, right top, left top, color-stop(1%, transparent), to(black));
+  -webkit-mask-image: linear-gradient(to left, transparent 1%, black);
+}
+
+.caitlyn-content-header h1 {
+  font-family: "Updock", cursive;
+  color: #c18618;
+  font-size: 70px;
+  margin-top: 10px;
+}
+
+.caitlyn-content-header p {
+  font-size: 30px;
+}
+
+.ekko-contents {
+  height: 400px;
+  margin-top: -196px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 305px;
+  padding-left: 206px;
+}
+
+.ekko-content-header h1 {
+  font-family: "Updock", cursive;
+  color: #c18618;
+  font-size: 70px;
+}
+
+.ekko-content-header p {
+  color: gold;
+  font-size: 30px;
+}
+
+.ekko-contents > .ekko-image img {
   -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(1%, transparent), to(black));
   -webkit-mask-image: linear-gradient(to right, transparent 1%, black);
 }
