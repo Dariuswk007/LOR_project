@@ -5,4 +5,18 @@ body {
   height: 10px;
   font-family: sans-serif;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: goldenrod;
+  outline: 2px solid slategray;
+  border-radius: 18px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+}
 /*# sourceMappingURL=common.css.map */

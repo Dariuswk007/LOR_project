@@ -146,20 +146,20 @@
           transform: scaleX(1);
 }
 
-.header-container > .center-top-nav > .contact {
+.header-container > .center-top-nav > .related {
   font-size: 25px;
   padding-right: 70px;
   display: inline-block;
   position: relative;
 }
 
-.header-container > .center-top-nav > .contact a {
+.header-container > .center-top-nav > .related a {
   color: gold;
   text-decoration: none;
   padding: 30px;
 }
 
-.header-container > .center-top-nav > .contact a::before {
+.header-container > .center-top-nav > .related a::before {
   content: "";
   position: absolute;
   width: 86px;
@@ -177,7 +177,7 @@
   transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
 }
 
-.header-container > .center-top-nav > .contact a:hover::before {
+.header-container > .center-top-nav > .related a:hover::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
