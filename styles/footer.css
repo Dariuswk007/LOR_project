@@ -2,10 +2,9 @@
   position: relative;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.2fr 0.7fr;
-      grid-template-columns: 0.2fr 0.7fr;
+  -ms-grid-columns: 0.2fr 0.7fr .2fr;
+      grid-template-columns: 0.2fr 0.7fr .2fr;
   background-color: #4b4b4b;
-  height: 700px;
   height: 112px;
   margin-top: 595px;
   opacity: 70%;
@@ -182,6 +181,18 @@
 .footer-nav > .related a:hover::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+
+.footer-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .skins-footer {

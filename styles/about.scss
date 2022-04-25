@@ -8,3 +8,17 @@
 body {
     @include body;
 }
+
+.bg-image {
+    background-image: url(/Images/footer-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.details-container {
+    color: red;
+    background-color: none;
+}

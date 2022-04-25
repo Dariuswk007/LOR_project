@@ -9,9 +9,8 @@
 .footer {
   position: relative;
   display: grid;
-  grid-template-columns: 0.2fr 0.7fr;
+  grid-template-columns: 0.2fr 0.7fr .2fr;
   background-color:  #4b4b4b;
-  height: 700px;
   height: 112px;
   margin-top: 595px;
   opacity: 70%;
@@ -150,6 +149,10 @@
 
 .footer-nav > .related a:hover::before {
   transform: scaleX(1);
+}
+
+.footer-image {
+  @include banner;
 }
 
 // skins footer
